@@ -8,7 +8,10 @@ public class HelloWorldController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Hello from Code Deploy";
+		return "Welcome to Java Tutorial
+	Here we have plenty of examples for you!
+	
+   Come and Explore Java!";
 	}
 	
 }
