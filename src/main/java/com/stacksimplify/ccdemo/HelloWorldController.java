@@ -8,10 +8,10 @@ public class HelloWorldController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Welcome to Java Tutorial
-	Here we have plenty of examples for you!
+		return "Welcome to Java Application
+			Java is the Queen of programming languages. It beholds the pride of the most preferred programming language by software developers!
 	
-   Come and Explore Java!";
+   			Come and Explore Java!";
 	}
 	
 }
